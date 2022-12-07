@@ -16,7 +16,6 @@ h1{
 div{
     border: solid 1px;
     background-color: #E2DE84;
-    width: 100%;
 }
 
 p{
@@ -25,27 +24,37 @@ p{
 
 .frutti_messicani_simili{
     text-align: center;
+    width: 95%;
 }
 
 .frutti_messicani_simili #avocado,
 .frutti_messicani_simili #fichi_dindia{
     border: 0px;
+    font-size: 12px;
     background-color: #ECFEAA;
 }
 
 
 .prezzo{
     text-align: center;
-
 }
 
 footer{
     background-color: #FFFFFF;
+    height: 30px;
 }
 
-.testo_sotto{
+footer .testo_sotto_sinistra,
+footer .testo_sotto_destra{
     font-size: 14px;
-    text-align: center;
+}
+footer .testo_sotto_destra{
+    position: absolute;
+    text-align:end;
+    right: 0%;
+}
+footer .testo_sotto_sinistra{
+    text-align: start;
 }
 
 .frutto_drago1,
@@ -55,6 +64,15 @@ footer{
     margin-right: auto;
     width: 50%;
 }
+
+.avocado{
+    width: 50%;
+}
+
+.fico_dindia{
+    width: 50%;
+}
+
 .doppia_immagine{
     text-align: center;
 }

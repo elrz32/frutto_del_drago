@@ -1,0 +1,66 @@
+body{
+    background-color: #ECFEAA;
+    color: #000000;
+}
+
+header{
+    background-color: #C4C27A;
+}
+
+h1{
+    font-size: 36px;
+    color: #009933;
+    text-align: center;
+}
+
+div{
+    border: solid 1px;
+    background-color: #E2DE84;
+    width: 100%;
+}
+
+p{
+    font-size: 16px;
+}
+
+.frutti_messicani_simili{
+    text-align: center;
+}
+
+.frutti_messicani_simili #avocado,
+.frutti_messicani_simili #fichi_dindia{
+    border: 0px;
+    background-color: #ECFEAA;
+}
+
+
+.prezzo{
+    text-align: center;
+
+}
+
+footer{
+    background-color: #FFFFFF;
+}
+
+.testo_sotto{
+    font-size: 14px;
+    text-align: center;
+}
+
+.frutto_drago1,
+.mappa{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+.doppia_immagine{
+    text-align: center;
+}
+
+.doppia_immagine .frutto_drago2,
+.doppia_immagine .frutto_drago3{
+    width: 45%;
+    height: 200px;
+}

@@ -34,6 +34,12 @@ p{
     background-color: #ECFEAA;
 }
 
+.bordoAvocado,
+.bordoFichiDindia{
+    border: solid 1px;
+    padding: 3px;
+    border-radius: 8px;
+}
 
 .prezzo{
     text-align: center;
@@ -41,7 +47,7 @@ p{
 
 footer{
     background-color: #FFFFFF;
-    height: 30px;
+    height: 50px;
 }
 
 footer .testo_sotto_sinistra,
@@ -55,6 +61,10 @@ footer .testo_sotto_destra{
 }
 footer .testo_sotto_sinistra{
     text-align: start;
+}
+
+.industries{
+    text-align: center;
 }
 
 .frutto_drago1,
@@ -80,5 +90,5 @@ footer .testo_sotto_sinistra{
 .doppia_immagine .frutto_drago2,
 .doppia_immagine .frutto_drago3{
     width: 45%;
-    height: 200px;
+    height: 230px;
 }
